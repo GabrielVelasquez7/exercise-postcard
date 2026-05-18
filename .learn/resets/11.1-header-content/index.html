@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="styles.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Postcard</title>
+	</head>
+	<body>
+		<div class="postcard">
+			<!-- Encabezado de la postal: Título y Logo/Sello -->
+			<div class="postcard-header">
+				<h1 class="postcard-title">My Postcard</h1>
+				<img
+					class="postcard-image"
+					src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
+					alt="4Geeks Logo"
+				/>
+			</div>
+
+			<!-- Cuerpo de la postal dividido en dos columnas -->
+			<div class="postcard-body">
+				<!-- Lado izquierdo: Mensaje o dedicatoria -->
+				<div class="body-left">
+					<h2>Look how awesome this is!</h2>
+					<p>
+						Look how awesome this is! I'm learning HTML5 and CSS3 to build my own web applications. It's challenging but extremely
+						rewarding.
+					</p>
+					<p>Wish you were here to see the progress I'm making every day!</p>
+				</div>
+
+				<!-- Lado derecho: Campos para los datos del destinatario -->
+				<div class="body-right">
+					<div class="input-group">
+						<input type="text" placeholder="Full Name" />
+					</div>
+					<div class="input-group">
+						<input type="email" placeholder="Email Address" />
+					</div>
+					<div class="input-group">
+						<input type="text" placeholder="City / Country" />
+					</div>
+				</div>
+			</div>
+
+			<!-- Pie de la postal: Botón de acción -->
+			<div class="postcard-footer">
+				<button type="submit" class="btn-send">Send My Postcard</button>
+			</div>
+		</div>
+	</body>
+</html>
